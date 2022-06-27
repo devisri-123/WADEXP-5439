@@ -1,0 +1,45 @@
+h1{
+    color:blue;
+
+    margin-top : 100px;
+    margin-bottom : 100px;
+    margin-left : 100px;
+    margin-right: 100px;
+
+    
+    border-style: outset;
+    border-color:purple;
+    border-width : 50px;
+
+    padding-top:50px;
+    padding-bottom: 50px;
+
+    background-color: red(147, 226, 43);
+
+
+}
+
+h2
+{
+    color :forestgreen;(226, 43, 214);
+    margin-top : 100px;
+    margin-bottom : 100px;
+    margin-left : 100px;
+    margin-right: 100px;
+
+    
+    border-style: double;
+    border-color:yellowgreen;
+    border-width : 10px;
+
+    padding-top:100px;
+    padding-bottom: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+    
+    background-image: url("pp.jpg");
+    background-repeat: repeat;
+    background-position: left;
+}

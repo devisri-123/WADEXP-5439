@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMS</title>
+</head>
+<body >
+	
+	<form action="welcome.html" method="post" target="_blank">
+		<center>
+		<table border="0" width="500" height="500">
+		<tr>
+			<td colspan="2"><h2><b><font color="red">Student Registration form</font></b></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Registrstion no. :</label>
+			</td>
+		    <td>
+		    	<input type="text" size = "30" name="regno" placeholder="Enter your reg no" required />
+		    </td>
+		</tr>
+		<tr >
+			<td>
+				<label for="name">Name: </label>
+			</td>
+			<td>
+				<input type="text" size = "30" name="username" placeholder="Enter your name" required />
+			</td>
+		</tr>
+		<tr >
+			<td>
+				<label for="fathername">Father Name: </label>
+			</td>
+			<td>
+				<input type="text" size = "30" name="fathername" placeholder="Enter your father name" required />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Gender:</label>
+			</td>
+			<td>
+				<input type="radio" name="gender" />Male
+				<input type="radio" name="gender" />Female
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Email:</label>
+			</td>
+			<td>
+				<input type="email" size = "30" name="email" placeholder="Enter your email" required/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Date:</label>
+			</td>
+			<td>
+				<input type="date" size = "30" name="dob" required/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Languages known:</label>
+			</td>
+			<td>
+					<input type="checkbox" name="lang">C
+					<input type="checkbox" name="lang">C++
+					<input type="checkbox" name="lang">Python
+			</td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td>
+					<input type="checkbox" name="lang">Java
+					<input type="checkbox" name="lang">R
+					<input type="checkbox" name="lang">Julia
+				
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Branch:</label>
+			</td>
+			<td>
+				<select name="branch">
+					<option value=-1>Select Branch</option>
+					<option value="CSE">CSE</option>
+					<option value="AI&DS">AI&DS</option>
+					<option value="AI&DS">AI&ML</option>
+					<option value="EEE">ECE</option>
+					<option value="ECE">EEE</option>
+					<option value="CIV">ME</option>
+					<option value="MECH">CE</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Address:</label>
+			</td>
+			<td>
+				<textarea rows="10" cols="20"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center>
+					<input type="submit" value="Register">
+					<input type="reset" value="clear">
+				</center>
+			</td>
+		</tr>
+
+		</table>
+	</center>
+		
+	</form>
+</body>
+</html>
